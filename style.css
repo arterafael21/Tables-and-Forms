@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+table, td, th {
+  border: 1px solid;
+  border-collapse: collapse;
+}

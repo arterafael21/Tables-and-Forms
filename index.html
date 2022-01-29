@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tables and Forms</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tables and Forms</h1>
+    </header>
+    <section>
+      <h2>Tables</h2>
+      <table>
+        <caption>Top 3 Favorite Things</caption>
+        <tr>
+          <th colspan="3">Top Favorites</th>
+        </tr>
+        <tr> 
+          <th>Foods</th>
+          <th>Activities</th>
+          <th>Musicians</th>
+        </tr>
+        <tr>
+          <td>Food 1</td>
+          <td>Activity 1</td>
+          <td>Musician 1</td>
+        </tr>
+        <tr>
+          <td>Food 2</td>
+          <td>Activity 2</td>
+          <td>Musician 1</td>
+        </tr>
+        <tr>
+          <td>Food 3</td>
+          <td>Activity 3</td>
+          <td>Musician 3</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h2>Forms</h2>
+      <form action="" method="get">
+        <fieldset>
+            <legend>Personal Info:</legend>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" required placeholder="enter your name"/><br>
+          <label for="height">Height:</label><br>
+          <input type="text" id="height" placeholder="enter your height"><br>
+          <label for="powers">Powers:</label><br>
+          <select id="powers">
+            <option value="flight">Flight</option>
+            <option value="laser-vision">Laser Vision</option>
+            <option value="breathe-underwater">Breathe underwater</option>
+          </select><br>
+          <label for="pw">Password:</label><br>
+          <input type="password" id="pw"/><br>
+          <input type="submit" value="Submit"/>
+        </fieldset>
+        <!-- <fieldset>
+          <legend>Shipping info:</legend>
+          <label for="address">Address:</label>
+          <input -->
+      </form>
+    </section>
+    <!-- <section>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ul>
+    </section> -->
+  </body>
+</html>
